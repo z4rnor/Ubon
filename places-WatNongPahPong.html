@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>วัดหนองป่าพง(หลวงปู่ชา)</title>
+
+    <!-- ฟอนต์ส่วนหัว -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <!-- ฟอนต์หน้าแรก -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- ฟอนต์แถวสาม -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- ฟอนต์แถวสาม -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="places.css">
+        <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <!-- ส่วนหัว -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#หน้าแรก" class="logo">
+                <img src="images/logoim.png" class="logoim">
+            </a>
+            <input type="checkbox" id="menu">
+
+            <label for="menu" class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </label>  
+            
+            <ul class="nav-link">
+                <li><a href="index.html#หน้าแรก">หน้าแรก</a></li>
+                <li><a href="index.html#เกี่ยวกับจังหวัด">เกี่ยวกับจังหวัด</a></li>
+                <li><a href="places.html">สถานที่เที่ยว</a></li>
+                <li><a href="nature.html">ธรรมชาติ</a></li>
+                <li><a href="food.html">กินที่อุบล</a></li>
+                <li><a href="hotel.html">ที่พัก</a></li>
+                <li><a href="gallery.html">ทิวทัศน์</a></li>
+                <li><a href="map.html">แผนที่</a></li>
+                <li><a href="contact.html" class="cta">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- เนื้อหาหน้าสถานที่เที่ยว -->
+    <main class="page-shell">
+
+  <div class="breadcrumb">
+    <a href="index.html">หน้าหลัก</a>
+    <span>/</span>
+    <a href="places.html">สถานที่ท่องเที่ยว</a>
+    <span>/</span>
+    <span>วัดหนองป่าพง(หลวงปู่ชา)</span>
+  </div>
+
+  <!-- ภาพหลักและรายละเอียดสถานที่ -->
+  <section class="hero-grid" id="details">
+
+    <div class="hero-photo-wrap">
+      <img
+        class="hero-photo"
+        id="heroPhoto"
+        src="images/WatNongPahPong1.JPG"
+        alt="ภาพวิวธรรมชาติยามพระอาทิตย์ตก"
+      >
+
+      
+
+      <button class="photo-arrow prev" id="prevPhoto" aria-label="ภาพก่อนหน้า">‹</button>
+      <button class="photo-arrow next" id="nextPhoto" aria-label="ภาพถัดไป">›</button>
+
+      <div class="photo-counter">
+        <span id="photoNumber">01</span> / 05
+        <i><b id="photoProgress"></b></i>
+      </div>
+
+    </div>
+
+    <div class="hero-info">
+
+      <div class="detail-decoration" aria-hidden="true">
+    
+
+
+      <span class="tag">วัด</span>
+
+      <h1>วัดหนองป่าพง</h1>
+      <p class="english-title"> Wat Nong Pah Pong </p>
+
+      <p class="quote">
+        <span>“</span>คลังปัญญาแห่งธรรมกรรมฐาน<span>”</span>
+      </p>
+
+      <p class="location">
+        <span class="pin">♥</span>
+        อำเภอวารินชำราบ จังหวัดอุบลราชธานี
+      </p>
+
+      <p class="description">
+        ก่อตั้งเมื่อปี พ.ศ. 2497 โดยหลวงปู่ชา สุภัทโท เป็นวัดป่าสายวิปัสสนากรรมฐาน ภายในมีพิพิธภัณฑ์พระโพธิญาณเถร จัดแสดงประวัติและเครื่องอัฐบริขารของหลวงปู่ชา รวมถึงเจดีย์ศรีโพธิญาณ ซึ่งสร้างขึ้นเพื่อบรรจุอัฐิของท่าน มีสถาปัตยกรรมผสมผสานศิลปะอีสานและล้านช้าง เป็นสถานที่ปฏิบัติธรรมและเรียนรู้ประวัติพระป่าสายกรรมฐานที่สำคัญของจังหวัดอุบลราชธานี
+      </p>
+
+
+
+    <div class="action-row">
+      <!-- ปุ่มเปิด Google Maps -->
+      <a
+        class="primary-action"
+        href="https://www.google.com/maps/search/?api=1&query=วัดหนองป่าพง(หลวงปู่ชา)+อุบลราชธานี"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        ดูแผนที่นำทาง
+      </a>
+
+      <!-- ปุ่มเลื่อนไปยังแกลเลอรี -->
+      <a
+        class="soft-action"
+        href="#gallery"
+        onclick="document.getElementById('gallery').scrollIntoView({ behavior: 'smooth' }); return false;"
+      >
+        ดูภาพบรรยากาศ
+      </a>
+    </div>
+      <p class="save-note" id="saveNote" aria-live="polite"></p>
+    </div>
+
+  </section>
+
+  <!-- แกลเลอรีและรายละเอียดเพิ่มเติม -->
+    <section class="content-grid">
+
+      <div class="gallery-panel" id="gallery">
+        <div class="tabs" role="tablist">
+          <button class="tab active" data-target="gallery-content">
+            ภาพบรรยากาศ
+          </button>
+      </div>
+
+      <!-- แท็บภาพบรรยากาศ -->
+      <div class="tab-content" id="gallery-content">
+        <div class="gallery-wrap">
+          <div class="gallery-grid" id="galleryGrid">
+            <button class="gallery-item" data-photo="1">
+              <img
+                src="images/WatNongPahPong2.JPG"
+                alt="บรรยากาศยามเย็น"
+              >
+        
+            </button>
+
+            <button class="gallery-item" data-photo="2">
+              <img
+                src="images/WatNongPahPong3.JPG"
+                alt="ธรรมชาติรอบตัว"
+              >
+            
+            </button>
+
+            <button class="gallery-item" data-photo="3">
+              <img
+                src="images/WatNongPahPong4.WEBP"
+                alt="ภูมิทัศน์"
+              >
+
+            </button>
+
+            <button class="gallery-item" data-photo="4">
+              <img
+                src="images/WatNongPahPong5.JPG"
+                alt="วิวริมผืนน้ำ"
+              >
+              
+            </button>
+          </div>
+        </div>
+      </div>
+     </section>
+
+    </main>
+     
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <h2>เลาะเมืองอุบล</h2>
+
+
+        <nav class="footer-links">
+                <a href="index.html#หน้าแรก">หน้าแรก</a>
+                <a href="index.html#เกี่ยวกับจังหวัด">เกี่ยวกับจังหวัด</a>
+                <a href="places.html">สถานที่เที่ยว</a>
+                <a href="nature.html">ธรรมชาติ</a>
+                <a href="food.html">กินที่อุบล</a>
+                <a href="hotel.html">ที่พัก</a>
+                <a href="gallery.html">ทิวทัศน์</a>
+                <a href="map.html">แผนที่</a>
+        </nav>
+      </div>
+
+    
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 เลาะเมืองอุบล | จัดทำโดยนิสิต สาขาสารสนเทศศึกษา คณะมนุษยศาสตร์และสังคมศาสตร์ มหาวิทยาลัยบูรพา</span>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="places.js"></script>
+</body>
+</html>

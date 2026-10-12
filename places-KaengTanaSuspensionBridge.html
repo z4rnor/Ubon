@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สะพานแขวนแก่งตะนะ</title>
+
+    <!-- ฟอนต์ส่วนหัว -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <!-- ฟอนต์หน้าแรก -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- ฟอนต์แถวสาม -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- ฟอนต์แถวสาม -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="places.css">
+        <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <!-- ส่วนหัว -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#หน้าแรก" class="logo">
+                <img src="images/logoim.png" class="logoim">
+            </a>
+            <input type="checkbox" id="menu">
+
+            <label for="menu" class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </label>  
+            
+            <ul class="nav-link">
+                <li><a href="index.html#หน้าแรก">หน้าแรก</a></li>
+                <li><a href="index.html#เกี่ยวกับจังหวัด">เกี่ยวกับจังหวัด</a></li>
+                <li><a href="places.html">สถานที่เที่ยว</a></li>
+                <li><a href="nature.html">ธรรมชาติ</a></li>
+                <li><a href="food.html">กินที่อุบล</a></li>
+                <li><a href="hotel.html">ที่พัก</a></li>
+                <li><a href="gallery.html">ทิวทัศน์</a></li>
+                <li><a href="map.html">แผนที่</a></li>
+                <li><a href="contact.html" class="cta">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- เนื้อหาหน้าสถานที่เที่ยว -->
+    <main class="page-shell">
+
+  <div class="breadcrumb">
+    <a href="index.html">หน้าหลัก</a>
+    <span>/</span>
+    <a href="places.html">สถานที่ท่องเที่ยว</a>
+    <span>/</span>
+    <span>สะพานแขวนแก่งตะนะ</span>
+  </div>
+
+  <!-- ภาพหลักและรายละเอียดสถานที่ -->
+  <section class="hero-grid" id="details">
+
+    <div class="hero-photo-wrap">
+      <img
+        class="hero-photo"
+        id="heroPhoto"
+        src="images/KaengTanaSuspensionBridge1.jpeg"
+        alt="ภาพวิวธรรมชาติยามพระอาทิตย์ตก"
+      >
+
+      
+
+      <button class="photo-arrow prev" id="prevPhoto" aria-label="ภาพก่อนหน้า">‹</button>
+      <button class="photo-arrow next" id="nextPhoto" aria-label="ภาพถัดไป">›</button>
+
+      <div class="photo-counter">
+        <span id="photoNumber">01</span> / 05
+        <i><b id="photoProgress"></b></i>
+      </div>
+
+    </div>
+
+    <div class="hero-info">
+
+      <div class="detail-decoration" aria-hidden="true">
+    
+
+
+      <span class="tag">จุดชมวิว</span>
+
+      <h1>สะพานแขวนแก่งตะนะ</h1>
+      <p class="english-title">Kaeng Tana Suspension Bridge</p>
+
+      <p class="quote">
+        <span>“</span> สะพานแขวนคนเดินที่ยาวที่สุดในภาคอีสาน <span>”</span>
+      </p>
+
+      <p class="location">
+        <span class="pin">♥</span>
+        อำเภอโขงเจียม จังหวัดอุบลราชธานี
+      </p>
+
+      <p class="description">
+        สะพานที่ถูกสร้างขึ้นเพื่อเป็นเส้นทางศึกษาธรรมชาติ ได้รับคำนิยามว่าเป็น “สะพานแขวนที่ยาวที่สุดในอีสาน” มีความยาวช่วงละเกือบ 300 เมตร โดยโครงสร้างสะพานเป็นเหล็กยึดโยงเสาด้วยลวดสลิงขนาดใหญ่ พื้นปูด้วยไม้วางติดกันข้ามไปยังดอนตะนะขนาดใหญ่อยู่ใจกลางแม่น้ำมูล โดยสะพานแห่งนี้มีสองช่วงด้วยกัน ซึ่งเป็นสะพานแขวนคนเดินข้ามที่ยาวมาก ยังเป็นจุดชมวิวสองฟากฝั่งของแม่น้ำมูลอยู่เหนือแก่งตะนะที่สามารถมองเห็นได้ ปัจจุบันมีเจ้าหน้าที่คอยบริการนักท่องเที่ยวให้ความรู้อยู่ตลอดในเวลาทำการ
+      </p>
+
+
+
+    <div class="action-row">
+      <!-- ปุ่มเปิด Google Maps -->
+      <a
+        class="primary-action"
+        href="https://maps.app.goo.gl/LiddWGchXbqBSvQZ6"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        ดูแผนที่นำทาง
+      </a>
+
+      <!-- ปุ่มเลื่อนไปยังแกลเลอรี -->
+      <a
+        class="soft-action"
+        href="#gallery"
+        onclick="document.getElementById('gallery').scrollIntoView({ behavior: 'smooth' }); return false;"
+      >
+        ดูภาพบรรยากาศ
+      </a>
+    </div>
+      <p class="save-note" id="saveNote" aria-live="polite"></p>
+    </div>
+
+  </section>
+
+  <!-- แกลเลอรีและรายละเอียดเพิ่มเติม -->
+    <section class="content-grid">
+
+      <div class="gallery-panel" id="gallery">
+        <div class="tabs" role="tablist">
+          <button class="tab active" data-target="gallery-content">
+            ภาพบรรยากาศ
+          </button>
+      </div>
+
+      <!-- แท็บภาพบรรยากาศ -->
+      <div class="tab-content" id="gallery-content">
+        <div class="gallery-wrap">
+          <div class="gallery-grid" id="galleryGrid">
+            <button class="gallery-item" data-photo="1">
+              <img
+                src="images/KaengTanaSuspensionBridge2.jpeg"
+                alt="บรรยากาศยามเย็น"
+              >
+        
+            </button>
+
+            <button class="gallery-item" data-photo="2">
+              <img
+                src="images/KaengTanaSuspensionBridge4.jpeg"
+                alt="ธรรมชาติรอบตัว"
+              >
+            
+            </button>
+
+            <button class="gallery-item" data-photo="3">
+              <img
+                src="images/KaengTanaSuspensionBridge5.jpeg"
+                alt="ภูมิทัศน์"
+              >
+
+            </button>
+
+            <button class="gallery-item" data-photo="4">
+              <img
+                src="images/KaengTanaSuspensionBridge3.jfif"
+                alt="วิวริมผืนน้ำ"
+              >
+              
+            </button>
+          </div>
+        </div>
+      </div>
+     </section>
+
+    </main>
+     
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <h2>เลาะเมืองอุบล</h2>
+
+
+        <nav class="footer-links">
+                <a href="index.html#หน้าแรก">หน้าแรก</a>
+                <a href="index.html#เกี่ยวกับจังหวัด">เกี่ยวกับจังหวัด</a>
+                <a href="places.html">สถานที่เที่ยว</a>
+                <a href="nature.html">ธรรมชาติ</a>
+                <a href="food.html">กินที่อุบล</a>
+                <a href="hotel.html">ที่พัก</a>
+                <a href="gallery.html">ทิวทัศน์</a>
+                <a href="map.html">แผนที่</a>
+        </nav>
+      </div>
+
+    
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 เลาะเมืองอุบล | จัดทำโดยนิสิต สาขาสารสนเทศศึกษา คณะมนุษยศาสตร์และสังคมศาสตร์ มหาวิทยาลัยบูรพา</span>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="places.js"></script>
+</body>
+</html>
